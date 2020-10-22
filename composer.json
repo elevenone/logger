@@ -1,0 +1,32 @@
+{
+    "name": "elevenone/logger",
+    "description": "Logger for BlackMatter",
+    "keywords": [
+        "php",
+        "logger",
+        "PSR-3",
+        "file-logger",
+        "null-logger",
+        "blackmatter",
+        "elevenone"
+    ],
+    "license": "MIT",
+    "homepage": "https://elevenone.space",
+    "authors": [
+        {
+            "name": "Zsolt Sándor",
+            "email": "hello@elevenone.space"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DarkMatter\\Components\\Logger\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
