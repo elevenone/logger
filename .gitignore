@@ -1,2 +1,4 @@
 .DS_Store
 logger.code-workspace
+/vendor
+.phpunit.result.cache

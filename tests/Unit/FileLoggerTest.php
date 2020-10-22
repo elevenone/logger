@@ -2,10 +2,10 @@
 
 namespace Bloatless\Endocore\Tests\Unit\Logger;
 
-use Bloatless\Endocore\Components\Logger\Factory;
-use Bloatless\Endocore\Components\Logger\LoggerException;
-use Bloatless\Endocore\Components\Logger\FileLogger;
-use Bloatless\Endocore\Components\Logger\LogLevel;
+use DarkMatter\Components\Logger\Factory;
+use DarkMatter\Components\Logger\LoggerException;
+use DarkMatter\Components\Logger\FileLogger;
+use DarkMatter\Components\Logger\LogLevel;
 use PHPUnit\Framework\TestCase;
 
 class FileLoggerTest extends TestCase
