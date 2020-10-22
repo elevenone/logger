@@ -9,5 +9,4 @@ namespace DarkMatter\Components\Logger;
  */
 class LoggerException extends \Exception
 {
-
 }
