@@ -1,6 +1,6 @@
 <?php
 
-namespace Bloatless\Endocore\Tests\Unit\Logger;
+namespace DarkMatter\Tests\Unit\Logger;
 
 use DarkMatter\Components\Logger\LogLevel;
 use DarkMatter\Components\Logger\NullLogger;
