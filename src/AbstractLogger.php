@@ -86,8 +86,10 @@ abstract class AbstractLogger implements LoggerInterface
     public function getLevelCode(string $level): int
     {
         if ($this->levelIsValid($level) === false) {
+           // echo __METHOD__;
             throw new \InvalidArgumentException('Invalid log-level provided.');
         }
+        //print_r(array_search($level, $this->levels));
         return array_search($level, $this->levels);
     }
 
