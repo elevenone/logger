@@ -1,13 +1,13 @@
 {
     "name": "elevenone/logger",
-    "description": "Logger for BlackMatter",
+    "description": "Logger for DarkMatter",
     "keywords": [
         "php",
         "logger",
         "PSR-3",
         "file-logger",
         "null-logger",
-        "blackmatter",
+        "darkmatter",
         "elevenone"
     ],
     "license": "MIT",
